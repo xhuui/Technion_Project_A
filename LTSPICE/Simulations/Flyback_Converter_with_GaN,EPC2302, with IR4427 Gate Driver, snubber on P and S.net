@@ -1,0 +1,32 @@
+* C:\C1 Repos\Technion_Project_A\LTSPICE\Simulations\Flyback_Converter_with_GaN,EPC2302, with IR4427 Gate Driver, snubber on P and S.asc
+L1 VL1 Vs 1µ
+L2 0 VL2 0.2µ
+V1 VL1 0 {Vin}
+D1 VL2 Vout MBR0530L
+Cout Vout 0 50µ
+R1 Vout 0 5
+XU1 Vg Vs 0 EPC2302
+Cin VL1 0 15µ
+V2 N002 0 12
+V3 N003 0 PULSE(0 6 0 10n 10n {D/fs} {1/fs})
+XU3 N001 NC_01 0 N003 NC_02 N002 IR4427
+R2 Vg N001 4
+C1 Vs P001 15n
+R3 P001 0 3
+R4 VL2 P002 5
+C2 P002 Vout 25n
+.model D D
+.lib C:\Users\szusin\OneDrive - Intel Corporation\Documents\LTspiceXVII\lib\cmp\standard.dio
+K L1 L2 0.95
+.param Vin = 12
+.tran 140u startup
+.param fs=1000k
+.param D=0.45
+* KTF500B156M55NHT00
+* EFD10/5/3-3F46-S
+* WW3FT5R00
+* A768EB476M1VLAE042
+.lib C:\C1 Repos\Technion_Project_A\LTSPICE\Components\Libraries\IR4427.lib
+.lib EPCGanlibrary.lib
+.backanno
+.end
