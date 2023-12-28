@@ -5,7 +5,7 @@ WINDOW 0 8 -56 Bottom 2
 WINDOW 3 8 56 Top 2
 SYMATTR Prefix X
 SYMATTR Value IR4427
-SYMATTR ModelFile C:\C1 Repos\Technion_Project_A\LTSPICE\Components\Libraries\IR4427.lib
+SYMATTR ModelFile D:\Users\C1\Documents\C1_Repos\Technion_Project_A\LTSPICE\Components\Libraries\IR4427.lib
 PIN -64 -32 LEFT 8
 PINATTR PinName OUTB
 PINATTR SpiceOrder 1
