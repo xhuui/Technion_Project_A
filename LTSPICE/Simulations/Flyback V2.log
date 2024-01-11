@@ -1,0 +1,45 @@
+Circuit: * C:\C1 Repos\Technion_Project_A\LTSPICE\Simulations\Flyback V2.asc
+
+Instance "m:u3:_gd_template:_lo_stage2:_lo_nmos": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:_gd_template:_lo_stage2:_lo_pmos": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:_gd_template:_lo_stage1:_lo_nmos": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:_gd_template:_lo_stage1:_lo_pmos": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 4.52742e-006 to 4.52804e-006
+Heightened Def Con from 5.08931e-006 to 5.08993e-006
+Heightened Def Con from 6.5281e-006 to 6.52873e-006
+Heightened Def Con from 7.08944e-006 to 7.09032e-006
+Heightened Def Con from 1.00884e-005 to 1.00892e-005
+Heightened Def Con from 1.50864e-005 to 1.50873e-005
+Heightened Def Con from 1.65287e-005 to 1.65294e-005
+Heightened Def Con from 1.75269e-005 to 1.75276e-005
+Heightened Def Con from 1.90876e-005 to 1.90885e-005
+Heightened Def Con from 1.95274e-005 to 1.95281e-005
+Heightened Def Con from 2.00882e-005 to 2.00891e-005
+Heightened Def Con from 2.30882e-005 to 2.30891e-005
+Heightened Def Con from 2.50874e-005 to 2.50882e-005
+Heightened Def Con from 2.70867e-005 to 2.70876e-005
+Heightened Def Con from 2.95276e-005 to 2.95282e-005
+Heightened Def Con from 3.15293e-005 to 3.15299e-005
+Heightened Def Con from 3.25286e-005 to 3.25292e-005
+Heightened Def Con from 3.30875e-005 to 3.30884e-005
+Heightened Def Con from 3.35291e-005 to 3.35298e-005
+
+Date: Thu Jan 11 12:11:12 2024
+Total elapsed time: 11.920 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 118632
+traniter = 118606
+tranpoints = 33841
+accept = 24481
+rejected = 9379
+matrix size = 191
+fillins = 71
+solver = Normal
+Thread vector: 148.3/60.2[7] 6.7/4.2[6] 11.0/7.4[3] 0.6/7.6[1]  2592/500
+Matrix Compiler1: 8.47 KB object code size  2.6/1.5/[1.5]
+Matrix Compiler2: 13.69 KB object code size  2.7/10.5/[0.8]
+
