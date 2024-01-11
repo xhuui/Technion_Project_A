@@ -1,45 +1,58 @@
-Circuit: * C:\C1 Repos\Technion_Project_A\LTSPICE\Simulations\Flyback V2.asc
+Circuit: * D:\Users\C1\Documents\C1_Repos\Technion_Project_A\LTSPICE\Simulations\Flyback V2.asc
 
-Instance "m:u3:_gd_template:_lo_stage2:_lo_nmos": Length shorter than recommended for a level 1 MOSFET.
-Instance "m:u3:_gd_template:_lo_stage2:_lo_pmos": Length shorter than recommended for a level 1 MOSFET.
-Instance "m:u3:_gd_template:_lo_stage1:_lo_nmos": Length shorter than recommended for a level 1 MOSFET.
 Instance "m:u3:_gd_template:_lo_stage1:_lo_pmos": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:_gd_template:_lo_stage1:_lo_nmos": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:_gd_template:_lo_stage2:_lo_pmos": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:_gd_template:_lo_stage2:_lo_nmos": Length shorter than recommended for a level 1 MOSFET.
 Direct Newton iteration for .op point succeeded.
-Heightened Def Con from 4.52742e-006 to 4.52804e-006
-Heightened Def Con from 5.08931e-006 to 5.08993e-006
-Heightened Def Con from 6.5281e-006 to 6.52873e-006
-Heightened Def Con from 7.08944e-006 to 7.09032e-006
-Heightened Def Con from 1.00884e-005 to 1.00892e-005
-Heightened Def Con from 1.50864e-005 to 1.50873e-005
-Heightened Def Con from 1.65287e-005 to 1.65294e-005
-Heightened Def Con from 1.75269e-005 to 1.75276e-005
-Heightened Def Con from 1.90876e-005 to 1.90885e-005
-Heightened Def Con from 1.95274e-005 to 1.95281e-005
-Heightened Def Con from 2.00882e-005 to 2.00891e-005
-Heightened Def Con from 2.30882e-005 to 2.30891e-005
-Heightened Def Con from 2.50874e-005 to 2.50882e-005
-Heightened Def Con from 2.70867e-005 to 2.70876e-005
-Heightened Def Con from 2.95276e-005 to 2.95282e-005
-Heightened Def Con from 3.15293e-005 to 3.15299e-005
-Heightened Def Con from 3.25286e-005 to 3.25292e-005
-Heightened Def Con from 3.30875e-005 to 3.30884e-005
-Heightened Def Con from 3.35291e-005 to 3.35298e-005
+Heightened Def Con from 1.06397e-07 to 1.07022e-07
+Heightened Def Con from 2.09796e-06 to 2.09858e-06
+Heightened Def Con from 4.09774e-06 to 4.09836e-06
+Heightened Def Con from 8.09769e-06 to 8.09856e-06
+Heightened Def Con from 1.25483e-05 to 1.25489e-05
+Heightened Def Con from 1.55511e-05 to 1.55517e-05
+Heightened Def Con from 1.75537e-05 to 1.75543e-05
+Heightened Def Con from 1.95505e-05 to 1.95512e-05
+Heightened Def Con from 2.41083e-05 to 2.41092e-05
+Heightened Def Con from 2.45393e-05 to 2.454e-05
+Heightened Def Con from 2.61058e-05 to 2.61067e-05
+Heightened Def Con from 2.65403e-05 to 2.6541e-05
+Heightened Def Con from 2.75431e-05 to 2.75438e-05
+Heightened Def Con from 2.80985e-05 to 2.80994e-05
+Heightened Def Con from 2.91005e-05 to 2.91014e-05
+Heightened Def Con from 3.11e-05 to 3.11009e-05
+Heightened Def Con from 3.51003e-05 to 3.51012e-05
+Heightened Def Con from 3.61015e-05 to 3.61024e-05
+Heightened Def Con from 4.51051e-05 to 4.5106e-05
+Heightened Def Con from 4.61078e-05 to 4.61087e-05
+Heightened Def Con from 4.81063e-05 to 4.81072e-05
+Heightened Def Con from 4.85504e-05 to 4.8551e-05
+Heightened Def Con from 4.91082e-05 to 4.9109e-05
+Heightened Def Con from 5.25498e-05 to 5.25504e-05
+Heightened Def Con from 5.31066e-05 to 5.31075e-05
+Heightened Def Con from 5.35541e-05 to 5.35548e-05
+Heightened Def Con from 5.51074e-05 to 5.51083e-05
+Heightened Def Con from 5.61054e-05 to 5.61062e-05
+Heightened Def Con from 5.71059e-05 to 5.71068e-05
+Heightened Def Con from 5.91016e-05 to 5.91025e-05
+Heightened Def Con from 5.95497e-05 to 5.95503e-05
+Heightened Def Con from 6.05512e-05 to 6.05518e-05
 
-Date: Thu Jan 11 12:11:12 2024
-Total elapsed time: 11.920 seconds.
+Date: Thu Jan 11 16:44:01 2024
+Total elapsed time: 6.981 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 118632
-traniter = 118606
-tranpoints = 33841
-accept = 24481
-rejected = 9379
-matrix size = 191
-fillins = 71
+totiter = 193097
+traniter = 193071
+tranpoints = 53237
+accept = 39225
+rejected = 14044
+matrix size = 197
+fillins = 66
 solver = Normal
-Thread vector: 148.3/60.2[7] 6.7/4.2[6] 11.0/7.4[3] 0.6/7.6[1]  2592/500
-Matrix Compiler1: 8.47 KB object code size  2.6/1.5/[1.5]
-Matrix Compiler2: 13.69 KB object code size  2.7/10.5/[0.8]
+Avg thread counts: 1.0/1.0/1.0/1.0
+Matrix Compiler1: 9.74 KB object code size  3.7/2.6/[1.4]
+Matrix Compiler2: 14.10 KB object code size  2.5/3.9/[1.7]
 
