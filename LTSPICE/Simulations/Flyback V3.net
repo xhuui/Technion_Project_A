@@ -1,0 +1,34 @@
+* D:\Users\C1\Documents\C1_Repos\Technion_Project_A\LTSPICE\Simulations\Flyback V3.asc
+L1 VL1 Vs 10µ
+L2 0 VL2 4µ
+V1 VL1 0 {Vin}
+D1 VL2 Vout VS-E5PX6006
+R1 Vout 0 5
+XU1 Vg Vs 0 EPC2302
+V2 N004 0 12
+V3 P001 0 PULSE(0 6 0 45n 45n {D/fs} {1/fs})
+XU3 N003 NC_01 0 P001 NC_02 N004 IR4427
+R2 N003 Vg 25
+C1 Vout 0 47µ
+D2 Vs P002 VS-E5PX6006
+C3 Vs P003 10n
+R4 P003 0 7.5
+C4 VL2 N002 10p
+R5 Vout N002 20
+D3 N001 P002 TDZV12
+D4 VL1 N001 TDZV12
+D5 P004 N003 PMEG2010BEA
+R3 Vg P004 1K
+D7 0 Vout TDZV12
+.model D D
+.lib C:\Users\C1\AppData\Local\LTspice\lib\cmp\standard.dio
+K L1 L2 0.95
+.param Vin = 12
+.tran 500u startup
+.param fs=1000k
+.param D=0.3
+* Transformer
+.lib D:\Users\C1\Documents\C1_Repos\Technion_Project_A\LTSPICE\Components\Libraries\IR4427.lib
+.lib EPCGanlibrary.lib
+.backanno
+.end
