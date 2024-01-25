@@ -1,0 +1,136 @@
+Circuit: * C:\C1 Repos\Technion_Project_A\LTSPICE\Simulations\Flyback V4.asc
+
+Instance "m:u3:_gd_template:_lo_stage2:_lo_nmos": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:_gd_template:_lo_stage2:_lo_pmos": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:_gd_template:_lo_stage1:_lo_nmos": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:_gd_template:_lo_stage1:_lo_pmos": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 3.77231e-007 to 3.77856e-007
+Heightened Def Con from 1.37766e-006 to 1.37829e-006
+Heightened Def Con from 2.3758e-006 to 2.37642e-006
+Heightened Def Con from 3.08905e-006 to 3.08968e-006
+Heightened Def Con from 5.37922e-006 to 5.37985e-006
+Heightened Def Con from 6.3773e-006 to 6.37793e-006
+Heightened Def Con from 7.08944e-006 to 7.09032e-006
+Heightened Def Con from 8.08699e-006 to 8.08787e-006
+Heightened Def Con from 8.37748e-006 to 8.37811e-006
+Heightened Def Con from 9.38396e-006 to 9.38459e-006
+Heightened Def Con from 1.00875e-005 to 1.00883e-005
+Heightened Def Con from 1.30881e-005 to 1.3089e-005
+Heightened Def Con from 1.50864e-005 to 1.50873e-005
+Heightened Def Con from 1.60889e-005 to 1.60898e-005
+Heightened Def Con from 1.63782e-005 to 1.63789e-005
+Heightened Def Con from 1.80872e-005 to 1.80881e-005
+Heightened Def Con from 1.90876e-005 to 1.90885e-005
+Heightened Def Con from 2.00882e-005 to 2.00891e-005
+Heightened Def Con from 2.03808e-005 to 2.03814e-005
+Heightened Def Con from 2.33844e-005 to 2.3385e-005
+Heightened Def Con from 2.43818e-005 to 2.43824e-005
+Heightened Def Con from 2.60896e-005 to 2.60905e-005
+Heightened Def Con from 2.63843e-005 to 2.63849e-005
+Heightened Def Con from 2.70892e-005 to 2.70901e-005
+Heightened Def Con from 2.73847e-005 to 2.73853e-005
+Heightened Def Con from 2.83826e-005 to 2.83832e-005
+Heightened Def Con from 3.03814e-005 to 3.0382e-005
+Heightened Def Con from 3.20867e-005 to 3.20876e-005
+Heightened Def Con from 3.23822e-005 to 3.23828e-005
+Heightened Def Con from 3.50886e-005 to 3.50895e-005
+Heightened Def Con from 3.53781e-005 to 3.53787e-005
+Heightened Def Con from 3.63796e-005 to 3.63802e-005
+Heightened Def Con from 4.1087e-005 to 4.10879e-005
+Heightened Def Con from 4.20871e-005 to 4.2088e-005
+Heightened Def Con from 4.23776e-005 to 4.23783e-005
+Heightened Def Con from 4.33772e-005 to 4.33778e-005
+Heightened Def Con from 4.53773e-005 to 4.53779e-005
+Heightened Def Con from 4.63806e-005 to 4.63812e-005
+Heightened Def Con from 4.90871e-005 to 4.9088e-005
+Heightened Def Con from 4.93815e-005 to 4.93821e-005
+Heightened Def Con from 5.00882e-005 to 5.00891e-005
+Heightened Def Con from 5.10882e-005 to 5.10891e-005
+Heightened Def Con from 5.23809e-005 to 5.23816e-005
+Heightened Def Con from 5.60877e-005 to 5.60885e-005
+Heightened Def Con from 6.00875e-005 to 6.00884e-005
+Heightened Def Con from 6.30882e-005 to 6.30891e-005
+Heightened Def Con from 6.33809e-005 to 6.33816e-005
+Heightened Def Con from 6.40883e-005 to 6.40892e-005
+Heightened Def Con from 6.43774e-005 to 6.43781e-005
+Heightened Def Con from 6.60882e-005 to 6.60891e-005
+Heightened Def Con from 6.70882e-005 to 6.70891e-005
+Heightened Def Con from 6.73774e-005 to 6.7378e-005
+Heightened Def Con from 6.83798e-005 to 6.83805e-005
+Heightened Def Con from 6.90882e-005 to 6.90891e-005
+Heightened Def Con from 7.40879e-005 to 7.40888e-005
+Heightened Def Con from 7.43788e-005 to 7.43794e-005
+Heightened Def Con from 7.50871e-005 to 7.5088e-005
+Heightened Def Con from 7.60888e-005 to 7.60897e-005
+Heightened Def Con from 8.03793e-005 to 8.038e-005
+Heightened Def Con from 8.13819e-005 to 8.13825e-005
+Heightened Def Con from 8.63782e-005 to 8.63788e-005
+Heightened Def Con from 8.8381e-005 to 8.83816e-005
+Heightened Def Con from 8.90882e-005 to 8.90891e-005
+Heightened Def Con from 8.93793e-005 to 8.93799e-005
+Heightened Def Con from 9.0378e-005 to 9.03786e-005
+Heightened Def Con from 9.23764e-005 to 9.2377e-005
+Heightened Def Con from 9.30882e-005 to 9.30891e-005
+Heightened Def Con from 9.63796e-005 to 9.63803e-005
+Heightened Def Con from 9.70882e-005 to 9.70891e-005
+Heightened Def Con from 9.838e-005 to 9.83806e-005
+Heightened Def Con from 9.93806e-005 to 9.93813e-005
+Heightened Def Con from 0.000103087 to 0.000103088
+Heightened Def Con from 0.000103379 to 0.00010338
+Heightened Def Con from 0.000104382 to 0.000104382
+Heightened Def Con from 0.000106087 to 0.000106093
+Heightened Def Con from 0.000106377 to 0.000106378
+Heightened Def Con from 0.000107088 to 0.000107089
+Heightened Def Con from 0.000109378 to 0.000109379
+Heightened Def Con from 0.000110087 to 0.000110088
+Heightened Def Con from 0.000111377 to 0.000111378
+Heightened Def Con from 0.000113088 to 0.000113089
+Heightened Def Con from 0.000114088 to 0.000114089
+Heightened Def Con from 0.000115087 to 0.000115088
+Heightened Def Con from 0.000116088 to 0.000116089
+Heightened Def Con from 0.000116377 to 0.000116378
+Heightened Def Con from 0.000117088 to 0.000117089
+Heightened Def Con from 0.00011838 to 0.000118381
+Heightened Def Con from 0.00011909 to 0.00011909
+Heightened Def Con from 0.000120088 to 0.000120089
+Heightened Def Con from 0.000121381 to 0.000121381
+Heightened Def Con from 0.000123087 to 0.000123088
+Heightened Def Con from 0.000124087 to 0.000124088
+Heightened Def Con from 0.000125088 to 0.000125089
+Heightened Def Con from 0.000126088 to 0.000126089
+Heightened Def Con from 0.000127088 to 0.000127089
+Heightened Def Con from 0.000128088 to 0.000128089
+Heightened Def Con from 0.000128378 to 0.000128379
+Heightened Def Con from 0.000129088 to 0.000129089
+Heightened Def Con from 0.000129378 to 0.000129379
+Heightened Def Con from 0.000130381 to 0.000130382
+Heightened Def Con from 0.000131087 to 0.000131088
+Heightened Def Con from 0.000131377 to 0.000131378
+Heightened Def Con from 0.000133378 to 0.000133378
+Heightened Def Con from 0.00013438 to 0.000134381
+Heightened Def Con from 0.000135378 to 0.000135389
+Heightened Def Con from 0.000136379 to 0.00013638
+Heightened Def Con from 0.000137377 to 0.000137378
+Heightened Def Con from 0.000138087 to 0.000138088
+Heightened Def Con from 0.000138381 to 0.000138382
+Heightened Def Con from 0.000139087 to 0.000139088
+
+Date: Wed Jan 24 22:54:47 2024
+Total elapsed time: 5.657 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 513727
+traniter = 513701
+tranpoints = 136173
+accept = 98523
+rejected = 37760
+matrix size = 196
+fillins = 64
+solver = Normal
+Thread vector: 16.7/7.8[7] 2.9/1.5[7] 7.3/2.0[7] 0.4/1.0[1]  2592/500
+Matrix Compiler1: 9.57 KB object code size  1.5/0.8/[0.6]
+Matrix Compiler2: 13.91 KB object code size  0.8/1.8/[0.7]
+
